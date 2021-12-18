@@ -51,7 +51,36 @@
     </div>
 </div>
 
-
+     <!-- NAV MOBILE -->
+     <nav class="navbar is-fixed-bottom mobile">
+    <ul>
+        <li class="list">
+            <a href="index.php">
+                <span class="text">Accueil</span>
+                <span class="icon"><i class="fas fa-home"></i></span>
+            </a>
+        </li>
+        <li class="list active">
+            <a href="menuBook.php">
+                <span class="icon"><i class="fas fa-book-open"></i></span>
+                <span class="text">Livres</span>
+            </a>
+        </li>
+        <li class="list">
+            <a href="presse.php">
+                <span class="icon"><i class="fas fa-newspaper"></i></span>
+                <span class="text">Presse</span>
+            </a>
+        </li>
+        <li class="list">
+            <a href="contact.php">
+                <span class="icon"><i class="fas fa-envelope"></i></span>
+                <span class="text">Contact</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
 
 
      <!-- FOOTER -->

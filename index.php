@@ -202,14 +202,45 @@
         <p class="cpink is-size-4">Dernière Danse</p>
     </section>
 
+    <!-- NAV MOBILE -->
+    <nav class="navbar is-fixed-bottom mobile">
+    <ul>
+        <li class="list active">
+            <a href="index.php">
+                <span class="text">Accueil</span>
+                <span class="icon"><i class="fas fa-home"></i></span>
+            </a>
+        </li>
+        <li class="list">
+            <a href="menuBook.php">
+                <span class="icon"><i class="fas fa-book-open"></i></span>
+                <span class="text">Livres</span>
+            </a>
+        </li>
+        <li class="list">
+            <a href="presse.php">
+                <span class="icon"><i class="fas fa-newspaper"></i></span>
+                <span class="text">Presse</span>
+            </a>
+        </li>
+        <li class="list">
+            <a href="contact.php">
+                <span class="icon"><i class="fas fa-envelope"></i></span>
+                <span class="text">Contact</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+
 <!-- FOOTER -->
 
 <?php include 'php/footer.php';?>
 
 
 <!-- Scripts  -->
-<script src="js/script.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 

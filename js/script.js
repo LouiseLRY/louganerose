@@ -9,25 +9,14 @@ const io = new IntersectionObserver(entries => {
 
 const cards = document.querySelectorAll('.card');
 cards.forEach(card => io.observe(card));
-
-
-// NavMobile active mode
-const list = document.querySelectorAll('.list');
-function activeLink() {
-  list.forEach((item) =>
-    item.classList.remove('active'));
-  this.classList.add('active');
-}
-list.forEach((item) =>
-  item.addEventListener('click', activeLink));
-
+  
 // BookMenu toggle
 
 const bookMenu = document.getElementById('bookMenu');
 
 bookMenu.addEventListener('click', () => {
   bookMenu.classList.toggle('is-active')
-})
+});
 
 
 // Glider

@@ -38,7 +38,7 @@
             <div class="column is-6">
                 <form class="form" action="" method="post" id="contact-form" role="form">
                     <div class="divider"></div>
-                    <h2 class="cpink is-size-3">Contactez-moi !</h2>
+                    <h2 class="cpink is-size-3 has-text-centered">Contactez-moi !</h2>
                     <div class="dividerBottom mb-6"></div>
                     <div class="field">
                         <label for="name" class="label">Nom / Prénom <span class="cpink"> *</span></label>
@@ -63,8 +63,11 @@
                         <p class="comment cpink mt-3"></p>
                     </div>
                     <p class="cpink is-left">* Ces informations sont requises</p>
-                    <input type="submit" class="button1 mt-5 px-6 py-2" value="Envoyer"></input>
+                    <div class="is-flex is-justify-content-center">
+                        <input type="submit" class="button1 mt-5 px-6 py-2" value="Envoyer"></input>
+                    </div>
 </form>
+            
             </div>
         </div>
     </section>
@@ -80,7 +83,36 @@
     </section>
 
 
-
+ <!-- NAV MOBILE -->
+ <nav class="navbar is-fixed-bottom mobile">
+    <ul>
+        <li class="list">
+            <a href="index.php">
+                <span class="text">Accueil</span>
+                <span class="icon"><i class="fas fa-home"></i></span>
+            </a>
+        </li>
+        <li class="list">
+            <a href="menuBook.php">
+                <span class="icon"><i class="fas fa-book-open"></i></span>
+                <span class="text">Livres</span>
+            </a>
+        </li>
+        <li class="list">
+            <a href="presse.php">
+                <span class="icon"><i class="fas fa-newspaper"></i></span>
+                <span class="text">Presse</span>
+            </a>
+        </li>
+        <li class="list active">
+            <a href="contact.php">
+                <span class="icon"><i class="fas fa-envelope"></i></span>
+                <span class="text">Contact</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
 
     <!-- FOOTER -->
     <?php include 'php/footer.php'; ?>
